@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Every
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- dizideki bütün elemanalar koşulu sağlıyor mu diye kontrol eder
+- hepsi koşulu sağlıyorsa true
+- aksi tadirede false döndürür
 
-Currently, two official plugins are available:
+# Some
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- dizideki en az bir eleman koşulu sağlıyor mu diye kontrol eder
+- 1 tanesi bile koşulu sağlıyor true
+- hiçbiri sağlamıyorsa false döndürür
 
-## Expanding the ESLint configuration
+# SEO - Search Engine Optimization
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## On-Page SEO (Sayfa İçi Seo)
 
-- Configure the top-level `parserOptions` property like this:
+- web sitenin içeirğini ve yapısını optimize etmeyi içerir
+- anahatar kelime kullanımları
+- başlık etiletkleri (title) ve meta açıklamlaarı
+- url yapısı
+- içerik kalitesi özgünlüğü
+- görsel optimizyonları (alt etiketleri vb.)
+- proje içerisndeki linkler
+- sayfa yüklenme hızı
+- mobil uyumluluk
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Off-Page SEO (Sayfa Dışı Seo)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- web sitenin dışarında gelen bağlantıları (backlinks) ve diğer sibyalleri içerir.
