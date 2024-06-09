@@ -1,3 +1,11 @@
+<h1>TypeScript NoteApp<h1>
+
+<h2>TypeScript Kullanılarak hazırlanmış NoteApp sitesi </h2>
+
+<h3>TypeScript NoteApp<h3>
+
+<img src="typescript.gif"/>
+
 # Every
 
 - dizideki bütün elemanalar koşulu sağlıyor mu diye kontrol eder
